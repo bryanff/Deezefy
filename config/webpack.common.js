@@ -24,10 +24,10 @@ module.exports = {
 		new CopyWebpackPlugin({
 			patterns: [
 				{
-					from: paths.public,
+					from: paths.src + '/Assets',
 					to: 'assets',
 					globOptions: {
-						ignore: ['*.DS_Store'],
+						ignore: ['*.DS_Store','*.scss'],
 					},
 					noErrorOnMissing: true,
 				},
