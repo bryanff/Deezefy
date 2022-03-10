@@ -1,0 +1,59 @@
+.player {
+	display: flex;
+	align-items: center;
+	&__control-panel {
+		display: flex;
+		margin: 0px 10px 0px 10px;
+	}
+	&__play-control {
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+	}
+	&__volume-control {
+		padding: 5px;
+		width: 200px;
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+	}
+}
+
+.track-panel {
+	margin: 0px 10px 0px 10px;
+	display: flex;
+	width: 400px;
+	height: 50px;
+	border-radius: 4px;
+	img {
+		width: 70px;
+		border-radius: 4px;
+		object-fit: cover;
+		object-position: center center;
+		margin-right: 10px;
+	}
+	&__info {
+		text-align: center;
+		padding: 5px;
+		width: 100%;
+	}
+	&__title {
+		font-size: 0.8rem;
+		color: white;
+	}
+	&__seekbar {
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+	}
+}
+
+.volume-control {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	&__icon {
+	}
+	&__slider {
+	}
+}
