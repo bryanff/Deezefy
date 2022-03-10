@@ -1,0 +1,19 @@
+.header {
+	padding: 0px 50px 0px 50px;
+	background: #fff; // #151a2a;
+	border-bottom: 1px solid #52525d;
+	border-color: #e7ebf0;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	&__brand {
+		text-decoration: none;
+		color: #52525d;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 2rem;
+		font-weight: 400;
+	}
+}
